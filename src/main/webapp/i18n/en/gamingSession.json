@@ -1,0 +1,30 @@
+{
+  "aruetimeApp": {
+    "gamingSession": {
+      "home": {
+        "title": "Gaming Sessions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Gaming Session",
+        "createOrEditLabel": "Create or edit a Gaming Session",
+        "notFound": "No Gaming Sessions found"
+      },
+      "created": "A new Gaming Session is created with identifier {{ param }}",
+      "updated": "A Gaming Session is updated with identifier {{ param }}",
+      "deleted": "A Gaming Session is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Gaming Session {{ id }}?"
+      },
+      "detail": {
+        "title": "Gaming Session"
+      },
+      "id": "ID",
+      "sessionName": "Session Name",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "success": "Success",
+      "theme": "Theme",
+      "participants": "Participants",
+      "games": "Games"
+    }
+  }
+}

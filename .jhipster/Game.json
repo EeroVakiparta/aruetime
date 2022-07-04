@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220704134847",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "game",
+  "fields": [
+    {
+      "fieldName": "gameName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "popularity",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Game",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "gamingSession",
+      "otherEntityRelationshipName": "games",
+      "relationshipName": "gamingSession",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

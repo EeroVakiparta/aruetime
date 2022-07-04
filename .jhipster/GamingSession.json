@@ -1,0 +1,50 @@
+{
+  "applications": "*",
+  "changelogDate": "20220704134846",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "gaming_session",
+  "fields": [
+    {
+      "fieldName": "sessionName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "success",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "theme",
+      "fieldType": "Theme",
+      "fieldValues": "HARDCORE,ARUE,CHILL,DRUNKEN"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "GamingSession",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "arueMan",
+      "otherEntityRelationshipName": "gamingSession",
+      "relationshipName": "participants",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "game",
+      "otherEntityRelationshipName": "gamingSession",
+      "relationshipName": "games",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

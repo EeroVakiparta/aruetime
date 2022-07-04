@@ -1,0 +1,30 @@
+{
+  "aruetimeApp": {
+    "gamingSession": {
+      "home": {
+        "title": "Gaming Sessions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Gaming Session",
+        "createOrEditLabel": "Luo tai muokkaa Gaming Session",
+        "notFound": "Gaming Session ei löytynyt"
+      },
+      "created": "Uusi Gaming Session on luotu, id: {{ param }}",
+      "updated": "Gaming Session on päivitetty, id: {{ param }}",
+      "deleted": "Gaming Session on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Gaming Session {{ id }}?"
+      },
+      "detail": {
+        "title": "Gaming Session"
+      },
+      "id": "ID",
+      "sessionName": "Session Name",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "success": "Success",
+      "theme": "Theme",
+      "participants": "Participants",
+      "games": "Games"
+    }
+  }
+}

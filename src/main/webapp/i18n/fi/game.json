@@ -1,0 +1,26 @@
+{
+  "aruetimeApp": {
+    "game": {
+      "home": {
+        "title": "Games",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Game",
+        "createOrEditLabel": "Luo tai muokkaa Game",
+        "notFound": "Game ei löytynyt"
+      },
+      "created": "Uusi Game on luotu, id: {{ param }}",
+      "updated": "Game on päivitetty, id: {{ param }}",
+      "deleted": "Game on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Game {{ id }}?"
+      },
+      "detail": {
+        "title": "Game"
+      },
+      "id": "ID",
+      "gameName": "Game Name",
+      "popularity": "Popularity",
+      "gamingSession": "Gaming Session"
+    }
+  }
+}

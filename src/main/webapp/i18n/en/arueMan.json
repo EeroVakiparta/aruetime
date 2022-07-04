@@ -1,0 +1,26 @@
+{
+  "aruetimeApp": {
+    "arueMan": {
+      "home": {
+        "title": "Arue Men",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Arue Man",
+        "createOrEditLabel": "Create or edit a Arue Man",
+        "notFound": "No Arue Men found"
+      },
+      "created": "A new Arue Man is created with identifier {{ param }}",
+      "updated": "A Arue Man is updated with identifier {{ param }}",
+      "deleted": "A Arue Man is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Arue Man {{ id }}?"
+      },
+      "detail": {
+        "title": "Arue Man"
+      },
+      "id": "ID",
+      "nameTag": "Name Tag",
+      "score": "Score",
+      "gamingSession": "Gaming Session"
+    }
+  }
+}

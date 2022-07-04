@@ -48,6 +48,11 @@ public class CacheConfiguration {
             createCache(cm, com.arue.aruetime.domain.User.class.getName());
             createCache(cm, com.arue.aruetime.domain.Authority.class.getName());
             createCache(cm, com.arue.aruetime.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.arue.aruetime.domain.ArueMan.class.getName());
+            createCache(cm, com.arue.aruetime.domain.ArueMan.class.getName() + ".gamingSessions");
+            createCache(cm, com.arue.aruetime.domain.GamingSession.class.getName());
+            createCache(cm, com.arue.aruetime.domain.Game.class.getName());
+            createCache(cm, com.arue.aruetime.domain.Game.class.getName() + ".gamingSessions");
             // jhipster-needle-ehcache-add-entry
         };
     }

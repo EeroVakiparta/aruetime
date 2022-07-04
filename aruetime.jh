@@ -1,0 +1,27 @@
+
+entity ArueMan {
+	nameTag String required
+    score Long
+}
+
+entity GamingSession {
+	sessionName String
+    startTime Instant 
+    endTime Instant
+    success Boolean
+    theme Theme
+}
+
+entity Game {
+	gameName String required
+    popularity Long
+}
+
+relationship OneToMany {
+	ArueMan to GamingSession{participants}
+    Game to GamingSession{games}
+}
+
+enum Theme {
+    HARDCORE, ARUE, CHILL, DRUNKEN
+}

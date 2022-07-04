@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220704134845",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "arue_man",
+  "fields": [
+    {
+      "fieldName": "nameTag",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "score",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ArueMan",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "gamingSession",
+      "otherEntityRelationshipName": "participants",
+      "relationshipName": "gamingSession",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

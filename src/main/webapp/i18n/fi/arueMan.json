@@ -1,0 +1,26 @@
+{
+  "aruetimeApp": {
+    "arueMan": {
+      "home": {
+        "title": "Arue Men",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Arue Man",
+        "createOrEditLabel": "Luo tai muokkaa Arue Man",
+        "notFound": "Arue Man ei löytynyt"
+      },
+      "created": "Uusi Arue Man on luotu, id: {{ param }}",
+      "updated": "Arue Man on päivitetty, id: {{ param }}",
+      "deleted": "Arue Man on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Arue Man {{ id }}?"
+      },
+      "detail": {
+        "title": "Arue Man"
+      },
+      "id": "ID",
+      "nameTag": "Name Tag",
+      "score": "Score",
+      "gamingSession": "Gaming Session"
+    }
+  }
+}
